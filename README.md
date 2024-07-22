@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Game in Scala</title>
-</head>
-<body>
+
+
+
+
+
     <h1>Simple Game in Scala</h1>
     <h2>Overview</h2>
     <p>This project implements a simple game in Scala where a player navigates a board, collects coins, and avoids walls. The player starts at an initial position and can move around the board to collect points.</p>
@@ -94,5 +91,3 @@ cd simple-game-scala
     
     <h2>Contact</h2>
     <p>For questions or suggestions, please contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
-</body>
-</html>
