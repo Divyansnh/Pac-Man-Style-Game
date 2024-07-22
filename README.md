@@ -51,15 +51,7 @@ The game is initialized with the following parameters:
 - `initialX`: The initial x position of the player.
 - `initialY`: The initial y position of the player.
 
-Example initialization:
 
-```scala
-val game = new Game(
-    wall = List((0, 0), (0, 1)),
-    coin = List((1, 1, 50), (2, 2, 100)),
-    initialX = 0,
-    initialY = 0
-)
 ### Player Movement
 
 The player can move up, down, left, and right. Movement methods and other interactions are defined within the `Game` class.
