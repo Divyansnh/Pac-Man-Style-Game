@@ -60,3 +60,31 @@ val game = new Game(
     initialX = 0,
     initialY = 0
 )
+### Player Movement
+
+The player can move up, down, left, and right. Movement methods and other interactions are defined within the `Game` class.
+
+### Scoring
+
+The player's score is tracked and updated as they collect coins.
+
+### Class Details
+
+#### Game
+
+The `Game` class holds the instance of the game. Key variables include:
+
+- `board`: A 10x10 grid where -1 represents an empty cell, 0 represents a wall, and positive numbers represent coins.
+- `points`: The player's score.
+- `positionX` and `positionY`: The player's current position.
+- `saveX` and `saveY`: Saved positions for the player.
+
+#### Methods
+
+The `Game` class includes methods for:
+
+- Initializing the board.
+- Moving the player.
+- Collecting coins.
+- Saving and restoring the player's position.
+
